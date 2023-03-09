@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://kit.fontawesome.com/e2338439b4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+	    <nav>
+	        <h1 class="port" style="color:black;padding-left:10px;"><i>PORTFOLIO<i></h1>
+		    <ul id="sidemenu">
+			<li><a href="#header">Home</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#services">Services</a></li>
+			<li><a href="#portfolio">Portfolio</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<i class="fas fa-times" onclick="closemenu()"></i>
+		    </ul>
+			<i class="fas fa-bars" onclick="openmenu()"></i>
+	    </nav>
+		<div class="header-text">
+		<p style="color:yellow;"><i class="fa-solid fa-code" ></i> Frontend Developer</p>
+		<h1>Hello, I'm<span> Anjali</span><br>from Mumbai</h1>
+		</div>
+	</div>
+</div>
+
+<!-- About -->
+<div id="about">
+    <div class="container">
+	    <div class="row">
+		    <div class="about-col-1">
+			<img src="pickart2.jpg">
+			</div>
+		    <div class="about-col-2">
+			<h1 class="sub-title">About me</h1>
+			<p>
+			<i>Hi,I'm <span style="color:yellow;">Anjali Sambhaji Gaikwad</span>, and i am <span style="color:yellow;">Bcs graduate</span>,specialized in Computer Science. I am born n brought up in khanapur,Dist-Sangli,
+			but currently i am staying in Mumbai.<br>
+			I have actively participated in various college events.My hobbies are drawing and painting.Along with this,my interests are in FrontEnd developing and <br>I love to create and design performant responsive websites.I m interested in the Frontend developing role because,I like creating products to improve the lives of users.<i>
+			
+			
+			
+			</p>
+			<div class="tab-titles">
+			<p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+			<p class="tab-links" onclick="opentab('experience')">Experience</p>
+			<p class="tab-links" onclick="opentab('education')">Education</p>
+			</div>
+			<div class="tab-contents active-tab" id="skills">  
+            <ul>
+			    <li><span>FRONTEND DEVELOPER</span><br>HTML,CSS,Javascript,MediaQuery,Jquery</li>
+			    <li><span>WEB DESIGNING</span><br>Bootstrap4,5</li>
+			    <li><span>SOFT SKILLS</span><br>Communication,Critical thinking</li>
+			    <li><span>CERTIFICATION</span><br>Certification in MS-CIT and Typing-30wpm</li>
+			</ul>
+			</div>
+			<div class="tab-contents" id="experience">  
+            <ul>
+			    <li><span>2022 - 2023 Current</span><br>Web Design Training at CNC Technology Institute</li>
+			    <li><span>2022 - 2023 Feb</span><br>Worked on two Projects,Interior designing & Restaurant</li>
+			    
+			</ul>
+			</div>
+			<div class="tab-contents" id="education">  
+            <ul>
+			    <li><span>BALWANT COLLEGE,VITA-2020</span><br>Bachelor of Computer Science-89%</li>
+			    <li><span>SADGURU GHADGE MAHARAJ,COLLEGE-2017</span><br>Higher Secondary School Certificate-57.23%</li>
+			    <li><span>THE GREENFINGERS SCHOOL AKLUJ-2015</span><br>Secondary School Certificate-80.80%</li>
+			</ul>
+			</div>
+			</div>
+		</div>
+	</div>
+    </div>
+	
+	
+	<!-- services -->
+<div id="services">
+    <div class="container">
+	    <h1 class="sub-title">My services</h1>
+	    <div class="services-list">
+		<div>
+		    <i class="fa-solid fa-code"></i>
+		    <h2>WEBSITE DESIGN</h2>
+		    <p> Implemented websites and standardized all the output with a new,responsive and strategy using HTML CSS Javascript,Jquery AND BOOTSTRAP 4 </p>
+		    <a href="#">Learn more</a>
+		</div>
+		<div>
+		    <i class="fa-solid fa-code"></i>
+		    <h2>FRONTEND WEB DESIGNER</h2>
+		    <p>Fully worked on two projects using frontend langauges html css javascrit bootstrap and created designed the responsive webpages.  </p>
+	        <a href="#">Learn more</a>
+		</div>
+		<div>
+		    <i class="fa-solid fa-code"></i>
+		    <h2>BACKEND </h2>
+		    <p>Working on core java,Advanced java and SDLC. </p>
+		    <a href="#">Learn more</a>
+		</div>
+		
+	        
+	    </div>
+	    </div>
+</div>
+   <!-- portfolio my work-->
+
+<div id="portfolio">
+    <div class="container">
+	    <h1 class="sub-title">My work</h1>
+		<div class="work-list">
+		    <div class="work">
+			    <img src="pexel4.jpg">
+				<div class="layer">
+				    <h3 style="color:white">Interior Desiging Website</h3>
+					<p>I have 1 year of experience at CNC webtech and hands on web languages. Worked on Interior Design website using relatable code,where user can visit the website responsively.This gives an quick idea or services to users or members to design their home.</p>
+					<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+			    <img src="image6.jpg">
+				<div class="layer">
+				    <h3 style="color:white">Restaurant Food website</h3>
+					<p>I have 1 year of experience at CNC webtech and hands on web languages. Worked on Restaurant website using relatable code,where user can visit the website responsively,where this website gives customers the freedom and choice to place an order any time,anywhere.</p>
+					<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+				</div>
+			</div>
+			<div class="work">
+			    <img src="pexel1.jpg">
+				<div class="layer">
+				    <h3 style="color:white">Library management system</h3>
+					<p>Worked on Library management system in the Graduation year,using java.This gives student and library manager to issue,renew,view books and keep track of library.</p>
+					<a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+				</div>
+			</div>
+		</div>
+		<a href="#" class="btn">see more</a>
+	</div>
+	
+	
+	
+	
+</div>
+
+<!-- contact -->
+<div id="contact">
+    <div class="container">
+	    <div class="row">
+	        <div class="contact-left">
+			    <h1 class="sub-title">contact me</h1>
+				<p><i class="fa-sharp fa-solid fa-paper-plane"></i>anjali24gaikwad@gmail.com</p>
+				<p><i class="fa-sharp fa-solid fa-phone"></i>9699018946, 9112764937</p>
+				<div class="social-icons">
+				    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+				    <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+				    <a href="https://instagram.com"><i class="fa-brands fa-instagram"></i></a>
+				    <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+				</div>
+				<a href="resume.pdf" download class="btn btn2">Download CV</a>
+			</div>
+	        <div class="contact-right">
+			    <form name="submit-to-google-sheet">
+			        <input type="text" name="Name" placeholder="Your name" required>
+			        <input type="email" name="Email" placeholder="Your email" required>
+			        <textarea name="Message" rows="6" placeholder="Your message" required></textarea>
+					<button type="submit" class="btn btn2">Submit</button>
+					
+			        
+			    </form>
+				<span id="msg"></span>
+			</div>
+	    </div>
+		
+	</div>
+	<div class="copyright">
+	    <p>I solemnly declare that all the above information is correct to the <i class="fa-solid fa-heart"></i> best of my knowledge and behalf.</p>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+	
+	function opentab(tabname){
+	    for(tablink of tablinks){
+	    tablink.classList.remove("active-link");
+	    }
+		for(tabcontent of tabcontents){
+	    tabcontent.classList.remove("active-tab");
+	    }
+		event.currentTarget.classList.add("active-link")
+	    document.getElementById(tabname).classList.add("active-tab")
+	}
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+	
+	function openmenu(){
+	    sidemenu.style.right = "0";
+	}
+    function closemenu(){
+	    sidemenu.style.right = "-200px";
+	}
+
+
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbzVkcLF0LomhT5f8ItxUk6kNM3nTiM3ySf8HN7hZsahYvpIJSgol5_xwylu9nVmPMwOQQ/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML ="Message sent successfully"
+		setTimeout(function(){
+		    msg.innerHTML = ""
+		},5000)
+		form.reset()
+	  })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+
+
+
+</html>
